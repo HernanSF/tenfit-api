@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1, 
+    "exercise": "skull-crusher", 
+    "muscle": "triceps" },
+  {
+    "id": 2,  
+    "exercise": "diamond-push-up",
+    "muscle": "triceps - biceps"
+  },
+  {
+    "id": 3,
+    "exercise": "chin-up",
+    "muscle": "back - biceps"
+  }
+]
