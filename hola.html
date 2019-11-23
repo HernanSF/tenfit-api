@@ -1,0 +1,11 @@
+<body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+    $.ajax({url: "https://tenfit-api.herokuapp.com/routines/1", type:"GET", dataType: "json", crossDomain: true,  success: function (response) {
+                var resp = JSON.parse(response)
+                alert(resp.status);
+            }});
+  </script>
+
+  <div id="hola"></div>
+</body>
